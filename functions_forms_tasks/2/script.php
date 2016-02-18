@@ -7,6 +7,7 @@ function topThreeWords($val){
     foreach ($strs as $v){
         $l=strlen($v);
         $res[$v]=$l;
+
     }
     asort($res);
    $keys=array_keys($res);
